@@ -117,3 +117,16 @@ button {
 button:hover {
     background-color: #0056b3;
 }
+
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+#projects {
+    background-color: white; /* Ensures no extra blue space */
+    padding: 20px;
+}

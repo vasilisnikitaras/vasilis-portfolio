@@ -1,5 +1,11 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: #f4f4f4;
+}
+
 .project {
-    background: rgba(255, 255, 255, 0.5);
+    background: rgba(255, 255, 255, 0.8);
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
@@ -8,5 +14,18 @@
     opacity: 0;
     transform: translateY(20px);
     transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
-    margin: 20px auto; /* Adds space around each project */
+    margin: 20px auto;
+}
+
+/* Hover effect */
+.project:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Responsive tweaks */
+@media (max-width: 600px) {
+    .project {
+        max-width: 90%;
+    }
 }

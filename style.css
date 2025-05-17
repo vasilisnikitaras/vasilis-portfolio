@@ -10,3 +10,16 @@ document.addEventListener("DOMContentLoaded", function () {
         }, index * 200);
     });
 });
+
+.project {
+    background: rgba(255, 255, 255, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    max-width: 300px;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+    margin: 20px auto; /* Adds space around each project */
+}

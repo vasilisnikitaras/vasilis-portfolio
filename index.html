@@ -1,25 +1,46 @@
-<section id="projects">
-    <h2>My Projects</h2>
-    <div class="projects-container">
-        <div class="project">
-            <img src="images/currency-calculator.png" alt="Currency Calculator">
-            <h3>Currency Exchange Calculator</h3>
-            <p>A tool to convert currencies accurately.</p>
-            <a href="https://vasilisnikitaras.github.io/vasi-currency-calculator/" target="_blank">View Project</a>
-        </div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vasilis Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Portfolio</h1>
+    </header>
 
+    <section id="projects">
+        <h2>My Projects</h2>
+
+        <!-- Weather Forecast App Section -->
         <div class="project">
-            <img src="images/weather-app.png" alt="Weather App">
             <h3>Weather Forecast App</h3>
-            <p>Get real-time weather updates worldwide.</p>
-            <a href="https://your-weather-app-link.com" target="_blank">View Project</a>
+            <p>A simple app to check real-time weather updates.</p>
+            
+            <!-- Weather Search Form -->
+            <div class="weather-container">
+                <input type="text" id="city-input" placeholder="Enter city name">
+                <button id="search-btn">Get Weather</button>
+                <div id="weather-output"></div>
+            </div>
+            
+            <a href="https://vasilisnikitaras.github.io/weather-app/" target="_blank">View Full Project</a>
         </div>
 
+        <!-- Task Manager App Section -->
         <div class="project">
-            <img src="images/task-manager.png" alt="Task Manager">
             <h3>Task Manager App</h3>
-            <p>Organize tasks efficiently with reminders.</p>
-            <a href="https://your-task-app-link.com" target="_blank">View Project</a>
+            <p>An intuitive app to manage your daily tasks efficiently.</p>
+            <a href="https://vasilisnikitaras.github.io/task-manager/" target="_blank">View Project</a>
         </div>
-    </div>
-</section>
+    </section>
+
+    <footer>
+        <p>© 2025 Vasilis Nikitaras | All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script> <!-- Link to JavaScript file -->
+</body>
+</html>

@@ -52,7 +52,8 @@ label {
 }
 
 input, select, textarea {
-  width: 90%;
+  width: 80%; /* Adjusted width */
+  height: 100px; /* Adjusted height for textarea */
   padding: 10px 15px;
   border: 1px solid #ccc;
   border-radius: 10px;

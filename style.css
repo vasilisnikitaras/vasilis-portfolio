@@ -74,8 +74,4 @@ input:focus,
 select:focus {
   outline: none;
   border-color: #0056b3;
-  background-color: #ffffff;
-}
-
-button {
-  padding: 14px 
+  background-color

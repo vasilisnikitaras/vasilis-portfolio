@@ -53,12 +53,12 @@ label {
 }
 
 input, select, textarea {
-  width: 70%; /* Adjusted width */
-  height: 80px; /* Adjusted height for textarea */
-  padding: 8px 12px; /* Adjusted padding */
+  width: 60%; /* Further adjusted width */
+  height: 60px; /* Further adjusted height for textarea */
+  padding: 6px 10px; /* Further adjusted padding */
   border: 1px solid #ccc;
   border-radius: 10px;
-  font-size: 0.9em; /* Adjusted font size */
+  font-size: 0.85em; /* Further adjusted font size */
   transition: border-color 0.2s ease-in-out;
   text-align: center;
   background-color: #f9f9f9;
@@ -97,9 +97,10 @@ textarea:focus {
   from {
     transform: translateY(-20px);
     opacity: 0;
-   to {
+  }
+  to {
     transform: translateY(0);
-    opacity: 1;
+   ;
   }
 }
 
@@ -131,6 +132,6 @@ textarea:focus {
 
   input, select, textarea {
     width: 90%; /* Adjusted width for smaller screens */
-    padding: 8px 12px; /* Adjusted padding */
+    padding: 6px 10px; /* Further adjusted padding */
   }
 }

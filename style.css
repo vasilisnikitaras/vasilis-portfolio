@@ -13,6 +13,7 @@ body {
   background-color: #ffffff;
   box-shadow: 0 8px 18px rgba(0, 0, 0, 0.08);
   border-radius: 18px;
+  animation: fadeIn 1s ease-in-out;
 }
 
 h1 {
@@ -20,6 +21,7 @@ h1 {
   font-size: 2em;
   margin-bottom: 24px;
   letter-spacing: 0.5px;
+  animation: slideIn 1s ease-in-out;
 }
 
 form {
@@ -58,6 +60,7 @@ input, select, textarea {
   transition: border-color 0.2s ease-in-out;
   text-align: center;
   background-color: #f9f9f9;
+  animation: fadeIn 1s ease-in-out;
 }
 
 input[type="number"] {
@@ -76,6 +79,27 @@ textarea:focus {
   outline: none;
   border-color: #0056b3;
   background-color: #e6f7ff;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateY(-20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
 }
 
 /* Media Queries for Responsive Design */
@@ -106,6 +130,6 @@ textarea:focus {
 
   input, select, textarea {
     width: 100%;
-   px 15px;
+    padding: 10px 15px;
   }
 }

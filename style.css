@@ -27,13 +27,14 @@ h1 {
 form {
   display: flex;
   flex-direction: column;
+  align-items: center; /* Center the form elements */
   gap: 16px;
 }
 
 .form-row {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center; /* Center the form rows */
   gap: 12px;
 }
 
@@ -52,12 +53,12 @@ label {
 }
 
 input, select, textarea {
-  width: 80%; /* Adjusted width */
-  height: 100px; /* Adjusted height for textarea */
-  padding: 10px 15px;
+  width: 70%; /* Adjusted width */
+  height: 80px; /* Adjusted height for textarea */
+  padding: 8px 12px; /* Adjusted padding */
   border: 1px solid #ccc;
   border-radius: 10px;
-  font-size: 1em;
+  font-size: 0.9em; /* Adjusted font size */
   transition: border-color 0.2s ease-in-out;
   text-align: center;
   background-color: #f9f9f9;
@@ -96,8 +97,7 @@ textarea:focus {
   from {
     transform: translateY(-20px);
     opacity: 0;
-  }
-  to {
+   to {
     transform: translateY(0);
     opacity: 1;
   }
@@ -115,7 +115,7 @@ textarea:focus {
   }
 
   input, select, textarea {
-    width: 100%;
+    width: 90%; /* Adjusted width for smaller screens */
   }
 }
 
@@ -130,7 +130,7 @@ textarea:focus {
   }
 
   input, select, textarea {
-    width: 100%;
-    padding: 10px 15px;
+    width: 90%; /* Adjusted width for smaller screens */
+    padding: 8px 12px; /* Adjusted padding */
   }
 }

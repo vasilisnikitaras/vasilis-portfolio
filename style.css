@@ -49,9 +49,9 @@ label {
   font-size: 0.95em;
 }
 
-input, select {
+input, select, textarea {
   width: 90%;
-  padding: 14px 24px;
+  padding: 10px 15px;
   border: 1px solid #ccc;
   border-radius: 10px;
   font-size: 1em;
@@ -71,7 +71,8 @@ input[type="number"]::-webkit-outer-spin-button {
 }
 
 input:focus,
-select:focus {
+select:focus,
+textarea:focus {
   outline: none;
   border-color: #0056b3;
   background-color: #e6f7ff;
@@ -88,7 +89,7 @@ select:focus {
     font-size: 1.5em;
   }
 
-  input, select {
+  input, select, textarea {
     width: 100%;
   }
 }
@@ -103,8 +104,8 @@ select:focus {
     font-size: 1.2em;
   }
 
-  input, select {
+  input, select, textarea {
     width: 100%;
-    padding: 10px 15px;
+   px 15px;
   }
 }
